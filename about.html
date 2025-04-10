@@ -222,6 +222,9 @@
         <div class="logo">
             <h1>Trade <span>Flow</span></h1>
         </div>
+        <button class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
         <ul class="nav-links">
             <li><a href="index.html">Басты бет</a></li>
             <li><a href="courses.html">Курстар</a></li>
@@ -324,4 +327,9 @@
         </div>
     </footer>
 </body>
+<script>
+    document.querySelector('.menu-toggle').addEventListener('click', function() {
+        document.querySelector('.nav-links').classList.toggle('active');
+    });
+</script>
 </html> 
