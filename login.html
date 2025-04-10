@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кіру - Trade Flow</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .login-container {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, rgba(21, 192, 233, 0.05) 0%, rgba(57, 205, 239, 0.05) 100%);
+            padding: 2rem;
+        }
+
+        .login-form {
+            background: var(--dark-surface);
+            backdrop-filter: blur(10px);
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            width: 100%;
+            max-width: 400px;
+            animation: fadeInUp 1s ease;
+            border: 1px solid var(--dark-border);
+        }
+
+        .login-form h2 {
+            text-align: center;
+            color: var(--dark-text);
+            margin-bottom: 2rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--dark-text);
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 0.8rem;
+            border: 2px solid var(--dark-border);
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            background: var(--dark-bg);
+            color: var(--dark-text);
+        }
+
+        .form-group input:focus {
+            border-color: var(--primary-color);
+            outline: none;
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 1rem;
+            background: var(--primary-color);
+            color: var(--dark-text);
+            border: none;
+            border-radius: 10px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .login-btn:hover {
+            background: var(--secondary-color);
+            transform: translateY(-2px);
+        }
+
+        .forgot-password {
+            text-align: center;
+            margin-top: 1rem;
+        }
+
+        .forgot-password a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .forgot-password a:hover {
+            color: var(--secondary-color);
+        }
+
+        .register-link {
+            text-align: center;
+            margin-top: 2rem;
+            color: var(--dark-text-secondary);
+        }
+
+        .register-link a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .register-link a:hover {
+            color: var(--secondary-color);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Trade <span>Flow</span></h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Басты бет</a></li>
+            <li><a href="courses.html">Курстар</a></li>
+            <li><a href="about.html">Біз туралы</a></li>
+            <li><a href="contact.html">Байланыс</a></li>
+            <li><a href="login.html" class="login-btn">Кіру</a></li>
+        </ul>
+    </nav>
+
+    <div class="login-container">
+        <form class="login-form">
+            <h2>Кіру</h2>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Құпия сөз</label>
+                <input type="password" id="password" required>
+            </div>
+            <button type="submit" class="login-btn">Кіру</button>
+            <div class="forgot-password">
+                <a href="#">Құпия сөзді ұмыттыңыз ба?</a>
+            </div>
+            <div class="register-link">
+                <p>Тіркелгіңіз жоқ па? <a href="#">Тіркелу</a></p>
+            </div>
+        </form>
+    </div>
+
+    <div class="footer-section">
+        <h3>Байланыс</h3>
+        <p>Email: nazerkearipkhan@icloud.com</p>
+        <p>Телефон: +7 (707) 942-9089</p>
+    </div>
+</body>
+</html> 
