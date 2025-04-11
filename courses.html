@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курстар - Trade Flow</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Trade <span>Flow</span></h1>
+        </div>
+        <button class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links">
+            <li><a href="index.html">Басты бет</a></li>
+            <li><a href="courses.html">Курстар</a></li>
+            <li><a href="about.html">Біз туралы</a></li>
+            <li><a href="contact.html">Байланыс</a></li>
+        </ul>
+    </nav>
+
+    <header class="courses-header">
+        <h1>Біздің курстар</h1>
+        <p>Трейдинг әлемінде өз жолыңызды бастаңыз</p>
+    </header>
+
+    <div class="courses-grid">
+        <div class="course-card">
+            <div class="course-image">
+                <img src="images/basic-course.jpg" alt="Базалық курс" onerror="this.src='https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=800&q=80'">
+            </div>
+            <div class="course-content">
+                <h3>Online</h3>
+                <p class="course-description">Трейдингтің негіздерін үйреніңіз. Бұл арнайы платформада жүзеге асырылады.</p>
+                <div class="course-details">
+                    <span class="course-duration"><i class="fas fa-clock"></i> 3 ай</span>
+                    <span class="course-videos"><i class="fas fa-video"></i> 15-20 сабақ</span>
+                    <span class="course-students"><i class="fas fa-user-graduate"></i> 15+</span>
+                </div>
+                <div class="course-price">
+                    <span class="price">100,000₸</span>
+                    <a href="#" class="enroll-btn">Қатысу</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="course-card">
+            <div class="course-image">
+                <img src="images/pro-course.jpg" alt="Про курс" onerror="this.src='https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=800&q=80'">
+            </div>
+            <div class="course-content">
+                <h3>Offline</h3>
+                <p class="course-description">Мұнда практика арқылы үлкен тәжірибе жинай аласыз. Және жетістіктерге қол жеткізесіз</p>
+                <div class="course-details">
+                    <span><i class="fas fa-clock"></i> 6 күн</span>
+                    <span><i class="fas fa-video"></i> 15-20 сабақ</span>
+                    <span><i class="fas fa-user-graduate"></i> 5-10</span>
+                </div>
+                <div class="course-price">
+                    <span class="price">250,000₸</span>
+                    <a href="#" class="enroll-btn">Қатысу</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="course-card">
+            <div class="course-image">
+                <img src="images/individual-course.jpg" alt="Жеке курс" onerror="this.src='https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=800&q=80'">
+            </div>
+            <div class="course-content">
+                <h3>Individual</h3>
+                <p class="course-description">Куратор тек сізбен жұмыс жасап, сізге толық тәжірибе беруге көмектеседі.</p>
+                <div class="course-details">
+                    <span><i class="fas fa-clock"></i> 6 күн</span>
+                    <span><i class="fas fa-video"></i> 15-20 сабақ</span>
+                    <span><i class="fas fa-user-graduate"></i> 1 </span>
+                </div>
+                <div class="course-price">
+                    <span class="price">300,000₸</span>
+                    <a href="#" class="enroll-btn">Қатысу</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Trade Flow</h3>
+                <p>Трейдинг білімінің болашағы</p>
+            </div>
+            <div class="footer-section">
+                <h3>Байланыс</h3>
+                <p>Email: nazerkearipkhan@icloud.com</p>
+                <p>Телефон: +7 (707) 942-9089</p>
+            </div>
+            <div class="footer-section">
+                <h3>Әлеуметтік желілер</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/nazerke_aripkhan?igsh=MXhpanJsb3FkdDdqbg=="><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Trade Flow. Барлық құқықтар қорғалған.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html> 
